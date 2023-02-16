@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -57,13 +58,57 @@ public class Main {
 
         if (deliveryDistance <= 100) {
             if (deliveryDistance <= 20)
-                System.out.println("Потребуется дней " + deliveryPeriod1);
+                System.out.println("Потребуется дней: " + deliveryPeriod1);
             if (deliveryDistance > 20 && deliveryDistance <= 60)
-                System.out.println("Потребуется дней " + deliveryPeriod2);
+                System.out.println("Потребуется дней: " + deliveryPeriod2);
             if (deliveryDistance > 60 && deliveryDistance <= 100)
-                System.out.println("Потребуется дней " + deliveryPeriod3);
+                System.out.println("Потребуется дней: " + deliveryPeriod3);
         }
         else
             System.out.println("Доставки нет");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        int monthNumber = 5;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Сезон: Зима");
+                break;
+            case 2:
+                System.out.println("Сезон: Зима");
+                break;
+            case 3:
+                System.out.println("Сезон: Весна");
+                break;
+            case 4:
+                System.out.println("Сезон: Весна");
+                break;
+            case 5:
+                System.out.println("Сезон: Весна");
+                break;
+            case 6:
+                System.out.println("Сезон: Лето");
+                break;
+            case 7:
+                System.out.println("Сезон: Лето");
+                break;
+            case 8:
+                System.out.println("Сезон: Лето");
+                break;
+            case 9:
+                System.out.println("Сезон: Осень");
+                break;
+            case 10:
+                System.out.println("Сезон: Осень");
+                break;
+            case 11:
+                System.out.println("Сезон: Осень");
+                break;
+            case 12:
+                System.out.println("Сезон: Зима");
+                break;
+            default:
+                System.out.println("Условие невыполнимо");
+        }
     }
 }
